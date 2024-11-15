@@ -1,6 +1,9 @@
-aiohttp
 loguru
-websockets-proxy
-fake-useragent
-pyTelegramBotAPI
+websockets
 requests
+pyfiglet
+colorama
+fake-useragent
+python-socks[asyncio]
+python-telegram-bot
+aiohttp
